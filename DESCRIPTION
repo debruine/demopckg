@@ -1,0 +1,17 @@
+Package: demopckg
+Title: Demo Stuff
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Lisa",
+           family = "DeBruine",
+           role = c("aut", "cre"),
+           email = "lisa.debruine@glasgow.ac.uk")
+Description: Demo Stuff.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Imports: 
+    magrittr,
+    stringr
