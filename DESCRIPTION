@@ -17,3 +17,5 @@ Imports:
     stringr
 URL: https://github.com/debruine/demopckg
 BugReports: https://github.com/debruine/demopckg/issues
+Suggests: 
+    testthat
