@@ -14,6 +14,10 @@
 report_p <- function(p, digits = 3) {
   if (p < 0) stop("p cannot be less than 0")
   if (p > 1) stop("p cannot be greater than 1")
+  if (digits < 1) {
+    warning("digits should probably be an integer between 1 and 5")
+    digits = 3
+  }
 
   if (p < .001) return("p < .001")
 
